@@ -1,0 +1,37 @@
+<?php
+
+global $_MODULE;
+$_MODULE = array();
+$_MODULE['<{postaldeliv}prestashop>postaldeliv_ce4c50dc71d48129439ac3e3aa1add2f'] = 'Postal Deliv';
+$_MODULE['<{postaldeliv}prestashop>postaldeliv_c7b990a3acb785ff77e2ef516264d9ca'] = 'Livraison par code postal';
+$_MODULE['<{postaldeliv}prestashop>adminpostaldelivcontroller_d3b206d196cd6be3a2764c1fb90b200f'] = 'Supprimer la sélection';
+$_MODULE['<{postaldeliv}prestashop>adminpostaldelivcontroller_e25f0ecd41211b01c83e5fec41df4fe7'] = 'Supprimer les éléments sélectionnés ?';
+$_MODULE['<{postaldeliv}prestashop>adminpostaldelivcontroller_12d97e7a87922a58b6ec8414c504a042'] = 'Ajouter une nouvelle règle';
+$_MODULE['<{postaldeliv}prestashop>adminpostaldelivcontroller_ec6f42d496d7c24b24fb542d63d4991a'] = 'Demander de l\'aide au développeur';
+$_MODULE['<{postaldeliv}prestashop>adminpostaldelivcontroller_5b0a00c63b94c11f0764d6e13ea068bd'] = 'Commenter et noter le module';
+$_MODULE['<{postaldeliv}prestashop>adminpostaldelivcontroller_b718adec73e04ce3ec720dd11a06a308'] = 'ID';
+$_MODULE['<{postaldeliv}prestashop>adminpostaldelivcontroller_914419aa32f04011357d3b604a86d7eb'] = 'Transporteur';
+$_MODULE['<{postaldeliv}prestashop>adminpostaldelivcontroller_faeaec9eda6bc4c8cb6e1a9156a858be'] = 'Disponibilité';
+$_MODULE['<{postaldeliv}prestashop>adminpostaldelivcontroller_59716c97497eb9694541f7c3d37b1a4d'] = 'Pays';
+$_MODULE['<{postaldeliv}prestashop>adminpostaldelivcontroller_8bcdc441379cbf584638b0589a3f9adb'] = 'Code postal';
+$_MODULE['<{postaldeliv}prestashop>adminpostaldelivcontroller_e25b163360646e8f71af8a8ee0fad1a3'] = 'Département';
+$_MODULE['<{postaldeliv}prestashop>adminpostaldelivcontroller_87ba2ecc8b6915e8bd6f5089918229fd'] = 'Fourchette';
+$_MODULE['<{postaldeliv}prestashop>adminpostaldelivcontroller_12a521af593422cd508f7707662c9eb2'] = 'Boutiques';
+$_MODULE['<{postaldeliv}prestashop>adminpostaldelivcontroller_804ccd6219996d12eda865d1c0707423'] = 'Toutes les boutiques';
+$_MODULE['<{postaldeliv}prestashop>adminpostaldelivcontroller_d411309c16b9403930ea1c6f90a4835d'] = 'Configurez vos restrictions d\'envoi';
+$_MODULE['<{postaldeliv}prestashop>adminpostaldelivcontroller_790d59ef178acbc75d233bf4211763c6'] = 'Pays';
+$_MODULE['<{postaldeliv}prestashop>adminpostaldelivcontroller_c3987e4cac14a8456515f0d200da04ee'] = 'Tous les pays';
+$_MODULE['<{postaldeliv}prestashop>adminpostaldelivcontroller_78945de8de090e90045d299651a68a9b'] = 'Disponible';
+$_MODULE['<{postaldeliv}prestashop>adminpostaldelivcontroller_453e6aa38d87b28ccae545967c53004f'] = 'Indisponible';
+$_MODULE['<{postaldeliv}prestashop>adminpostaldelivcontroller_f47bc7ebabe107e4f9225e66a2f3a3b3'] = 'Pour les codes postaux suivants';
+$_MODULE['<{postaldeliv}prestashop>adminpostaldelivcontroller_388ede8232eb61bf35187c7a3e8ab31b'] = 'Séparez vos codes postaux avec des virgules comme suit: 75001,75002,';
+$_MODULE['<{postaldeliv}prestashop>adminpostaldelivcontroller_2cc38c0166c33e21f1c78d58843598cc'] = 'Vous pouvez utiliser tout type de format de codes postaux tant que ceux-ci sont séparés par des virgules.';
+$_MODULE['<{postaldeliv}prestashop>adminpostaldelivcontroller_d8915368220d2391096720a3d0c77275'] = 'Ou les codes postaux entre';
+$_MODULE['<{postaldeliv}prestashop>adminpostaldelivcontroller_1cd87238b0147bbebbed92e34f7109ba'] = 'Cette option ne fonctionne que pour les codes postaux numériques';
+$_MODULE['<{postaldeliv}prestashop>adminpostaldelivcontroller_1162d6b40a56d67ce3776c0c0a1eae8c'] = 'Ou les codes postaux commençant par';
+$_MODULE['<{postaldeliv}prestashop>adminpostaldelivcontroller_449ed49f0ad7a84787701ab960bf6a0b'] = 'Séparez vos codes par des virgules comme suit: 75, 76,';
+$_MODULE['<{postaldeliv}prestashop>adminpostaldelivcontroller_c9cc8cce247e49bae79f15173ce97354'] = 'Enregistrer';
+$_MODULE['<{postaldeliv}prestashop>adminpostaldelivcontroller_5f7af01f5e84e2043c3b3921d80cd1a0'] = 'indisponible pour';
+$_MODULE['<{postaldeliv}prestashop>adminpostaldelivcontroller_179a91af16b74720becdf2c95a17861d'] = 'disponible pour';
+$_MODULE['<{postaldeliv}prestashop>form_be5d5d37542d75f93a87094459f76678'] = 'et';
+$_MODULE['<{postaldeliv}prestashop>form_9a33e3afba05711d4398d033d392c446'] = 'Êtes-vous sûr de vouloir supprimer cette fourchette ?';

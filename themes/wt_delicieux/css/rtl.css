@@ -1,0 +1,77 @@
+/********************************************************
+			Right to Left Styles
+********************************************************/
+* {
+  direction: rtl !important; }
+
+#page {
+  text-align: right !important; }
+
+.header_user_info a, #languages-block-top div.current, #currencies-block-top div.current, #wt_testimonial_content .item, .owl-carousel .owl-stage-outer {
+  direction: ltr !important; }
+
+#header_logo {
+  text-align: left; }
+
+#usefull_link_block li {
+  float: right; }
+
+.wt-sub-menu .wt-menu-row, .wt-menu-horizontal ul li.level-1 ul li a, .wt-menu-horizontal .menu-dropdown .menu-item.item-header .content_price, .product-container, .wt-prod-cat .product-container .prod-content, .wt-menu-sticky.wt-menu-horizontal li.level-1 a, .block .title_block, .block h4, #productscategory_list .product-box, .accessories-block .product-box, .wt-support {
+  text-align: right; }
+
+.our-store-item-right ul li {
+  float: right;
+  margin-left: 20px;
+  margin-right: 0; }
+
+.post_title, .footer-container #footer h4, #product_comments_block_tab .title_block strong, .block .title_block, .block h4 {
+  background-position: bottom right; }
+
+.g-blog-info .blog-author {
+  float: right;
+  margin-left: 20px;
+  margin-right: 0; }
+
+#wt-block-instagram-social ul li {
+  float: right;
+  margin-left: 10px;
+  margin-right: 0; }
+
+#categories_block_left li a, #blog_categories li a {
+  padding-right: 0;
+  padding-left: 30px; }
+
+#categories_block_left li span.grower, #blog_categories li span.grower {
+  left: 0;
+  right: auto; }
+
+.tags_block .block_content a {
+  float: right;
+  margin-left: 2px;
+  margin-right: 0; }
+
+div#search_block_top #search_query_top, .payment-left {
+  text-align: left; }
+
+.footer-container #footer h4:after {
+  right: auto;
+  left: 0; }
+
+#blog_latest_new_home .blog-content .out-blog-info, #blog_latest_new_home .blog-date, .wt-specail-prod .group-2 .right-block, .wt-home-banner .wt-out-banner {
+  text-align: right; }
+
+.wt-home-banner .wt-out-banner h3 {
+  background-position: top right; }
+
+@media (min-width: 768px) {
+  .wt-menu-horizontal ul.menu-content {
+    direction: ltr !important; } }
+@media (max-width: 767px) {
+  .icon-drop-mobile, .title-menu-mobile span:after {
+    float: left; }
+
+  .icon-drop-mobile:after {
+    left: 0;
+    right: auto; } }
+
+/*# sourceMappingURL=rtl.css.map */

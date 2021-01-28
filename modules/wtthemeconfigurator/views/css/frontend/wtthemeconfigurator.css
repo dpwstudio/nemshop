@@ -1,0 +1,9 @@
+.box-mode #page {
+    width: 1200px;
+    box-shadow: 0 0 8px #666666;
+	margin: 0 auto;}
+@media (min-width: 767px) and (max-width:1023px)
+{
+	#wt-block-instagram-social ul li.item-7{display:none}
+	#wt-block-instagram-social ul li.item-8{display:none}
+}

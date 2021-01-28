@@ -1,0 +1,9 @@
+.bootstrap input.inline {
+    display: inline !important;
+}
+.postal_range {
+    margin-bottom: 10px;
+}
+.icon-plus-sign, .icon-minus-sign {
+    cursor: pointer;
+}

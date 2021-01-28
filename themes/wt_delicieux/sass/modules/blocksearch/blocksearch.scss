@@ -1,0 +1,145 @@
+@import "compass";
+@import "theme_variables";
+#search_block_top {
+	float:right;
+	margin-right:17px;
+	margin-top:25px;
+	position:relative;z-index:2;
+	#searchbox {
+		float: left;
+		width: 100%;
+	}
+	.btn.button-search {
+		background: $bg-button;
+		display: block;
+		position: absolute;
+		top: 0;
+		right: 0;
+		border: none;
+		color: $light-text-color;
+		text-align: center;
+		padding:0 20px;
+		font-size:11px;text-transform:uppercase;
+		height:40px;line-height:40px;
+		font-family:$font-custom;
+		&:hover {
+		
+		}
+	}
+	#search_query_top {
+		display: inline;
+		padding: 13px 60px 13px 13px;
+		height: 45px;
+		background: $base-box-bg;
+		margin-right: 1px;
+	}
+}
+.search_hover {
+   
+    font-size:10px;
+	color:$light-text-color; 
+    text-align: center;
+    text-transform:uppercase;
+    cursor: pointer;
+	font-weight:600;
+	 transition: all 0.4s ease 0s;
+    -moz-transition: all 0.4s ease 0s;
+    -webkit-transition: all 0.4s ease 0s;
+	&.active
+	 {
+		 &:before 
+		 {
+			 background:$bg-button;
+			 color:$light-text-color;
+		 }
+	 }
+   
+}
+.search_hover:before {
+    content: "\f002";
+    font-family: "FontAwesome";
+    cursor: pointer;
+    font-size: 11px;
+    line-height: 13px;
+	margin-right:4px;
+	padding:8px 9px;border-radius:100%;-moz-border-radius:100%;-webkit-border-radius:100%;width:28px; height:28px;
+}
+.drop_search {
+    position: absolute;
+    top: 34px;
+    right: 70px;
+    z-index: 1002;
+	padding:20px;
+	background:$bg-button-two;
+  
+}
+#search_block_top #searchbox {
+    float: left;
+    width: 100%;
+	position:relative;
+}
+#search_block_top #search_query_top {
+    display: inline;
+    padding: 13px 60px 13px 13px;
+    height: 40px;
+    background: #fff;
+    margin-right: 1px;
+    border: none;
+    width: 465px;
+	@media (min-width: $screen-sm) and (max-width: $screen-sm-max) 
+	{
+		 width: 300px;
+	}
+}
+@media (min-width: 768px)
+{
+.drop_search {
+    display: none;
+}
+}
+
+
+.ac_results {
+	background: $light-background;
+	border: 1px solid #d9d9d9 !important;
+	width: 466px !important;
+	
+	li {
+		padding: 6px 10px !important;
+		font-weight: normal;
+		color: #686666;
+		font-size: 13px;
+		line-height: 22px;
+		&.ac_odd {
+			background: $light-background;
+		}
+		&:hover, &.ac_over {
+			background: $bg-main;
+			color:$light-text-color;
+		}
+	}
+   @media (max-width: 767px)
+    {
+		width: 272px !important;
+	}
+}
+
+form#searchbox {
+	position: relative;
+	label {
+		color: $base-text-color;
+	}
+	input#search_query_block {
+		margin-right:10px;
+		max-width:222px;
+		margin-bottom:10px;
+		display:inline-block;
+		float:left;
+	}
+	.button.button-small {
+		float:left;
+		i {
+			margin-right:0;
+		}
+	}
+}

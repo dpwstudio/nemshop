@@ -1,0 +1,30 @@
+<?php
+
+global $_MODULE;
+$_MODULE = array();
+$_MODULE['<{wtbulkcombinations}prestashop>wtbulkcombinations_875a95797418d7dfae3deaeaf8d711e7'] = 'Создание множества комбинаций товара';
+$_MODULE['<{wtbulkcombinations}prestashop>wtbulkcombinations_64422543572b39c10ba37e503d79bde3'] = 'Пожалуйста выберите хотя бы один товар чтобы продолжить';
+$_MODULE['<{wtbulkcombinations}prestashop>wtbulkcombinations_cce911598748771ff10233149839a738'] = 'Комбинации успешно созданы ';
+$_MODULE['<{wtbulkcombinations}prestashop>wtbulkcombinations_2f2c1f382f3e93b8bdadf285347dc24d'] = 'Пожалуйста выберите хотя бы один атрибут для создания комбинации';
+$_MODULE['<{wtbulkcombinations}prestashop>wtbulkcombinations_42d00bc24fd43cfe3e2e30d01f39ee95'] = 'Отфильтровать по категории';
+$_MODULE['<{wtbulkcombinations}prestashop>wtbulkcombinations_03368e3c1eb4d2a9048775874301b19f'] = 'Выбрать категорию';
+$_MODULE['<{wtbulkcombinations}prestashop>wtbulkcombinations_e86dfe5c96015d9eb7affc5bcc60d579'] = 'Для товара #';
+$_MODULE['<{wtbulkcombinations}prestashop>wtbulkcombinations_b2324753f0cc538d60e9d65240b82233'] = 'Невозможно удалить комбинации, так как товар есть в наличии в  Advanced Stock Management. Вы должны предварительно удалить товары в наличии ';
+$_MODULE['<{wtbulkcombinations}prestashop>wtbulkcombinations_24deae1bf1596efb0c38d969c02f2ecd'] = 'Ошибка во время удаления стока';
+$_MODULE['<{wtbulkcombinations}prestashop>form_btm_dae8ace18bdcbcc6ae5aece263e14fe8'] = 'Опции';
+$_MODULE['<{wtbulkcombinations}prestashop>form_btm_947f664d2eaee1f87d0feebcca0d6215'] = 'Удалить существующие комбинации для выбранных товаров ';
+$_MODULE['<{wtbulkcombinations}prestashop>form_btm_b8352233c84a98fdf3cb4dc853badb79'] = 'Вы уверены что хотите создать комбинации для выбранных товаров? ';
+$_MODULE['<{wtbulkcombinations}prestashop>form_btm_b2c80334809f9130d46e89b66b6d8544'] = 'Создать комбинации ';
+$_MODULE['<{wtbulkcombinations}prestashop>form_btm_00bd4ec31bdf34dc77945bf0d66ea573'] = 'Создать ещё комбинаций';
+$_MODULE['<{wtbulkcombinations}prestashop>form_btm_d3b3de445bc84376ce95626195d130ae'] = 'Выберите атрибуты для создания комбинаций';
+$_MODULE['<{wtbulkcombinations}prestashop>form_btm_fbd324da27b80d82f88b74d01a3de7f9'] = 'Кликните для выбора атрибутов ';
+$_MODULE['<{wtbulkcombinations}prestashop>form_btm_f3b773b7269b9a6456c55873dc60e453'] = 'Выбранные атрибуты ';
+$_MODULE['<{wtbulkcombinations}prestashop>form_btm_bf1a20edc5784375f2a2be6c1cf51ee6'] = 'Нет товаров в этой категории';
+$_MODULE['<{wtbulkcombinations}prestashop>form_top_9c3ca8b2e6aeb76ba84f851bb34adf44'] = 'Укажите цену и количество товара для комбинаций';
+$_MODULE['<{wtbulkcombinations}prestashop>form_top_3601146c4e948c32b6424d2c0a7f0118'] = 'Цена ';
+$_MODULE['<{wtbulkcombinations}prestashop>form_top_694e8d1f2ee056f98ee488bdc4982d73'] = 'Количество ';
+$_MODULE['<{wtbulkcombinations}prestashop>form_top_ed4e0a0aae1c5f8eebeefb2d24e746bc'] = 'Удалить все';
+$_MODULE['<{wtbulkcombinations}prestashop>form_top_418f2235553da6735eb90e62e1d43da9'] = 'Создать эти комбинации для ';
+$_MODULE['<{wtbulkcombinations}prestashop>form_top_04e418e45f9b8ea710eca2d48eafee6e'] = 'Всех товаров ';
+$_MODULE['<{wtbulkcombinations}prestashop>form_top_99078a8f3786817fbaa593c08ff04a5d'] = 'Выбрать категории';
+$_MODULE['<{wtbulkcombinations}prestashop>form_top_8f8a4348cd537ba5f0bf813e66436dc5'] = 'Выбрать товары';

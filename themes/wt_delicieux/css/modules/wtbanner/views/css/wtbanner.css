@@ -1,0 +1,39 @@
+/* BLOCK #banner_block ******************************************************************** */
+#wt_banner_content li{padding:0;}
+.bottom-banner{padding:60px 0;background:#65b6a7;}
+.bottom-banner .text-bn{color:#fff;font-weight:600;font-size:20px;text-transform:uppercase;margin-right:45px;font-family:'Montserrat', sans-serif;}
+.bottom-banner .shopnow{opacity:1;font-size:16px;}
+.banner-content a{display:block;position:relative;}
+.banner-content a:before {
+    display: block;
+    position: absolute;
+    z-index: 2;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    content: "";
+    background: #000;
+    -webkit-transition: all .4s;
+    transition: all .4s;
+    opacity: 0;
+    filter: alpha(opacity=0);
+}
+.banner-content a:hover:before {
+    opacity: .4;
+    filter: alpha(opacity=40);
+    margin: 12px;
+}
+@media (min-width:768px) and (max-width: 1199px) 
+{
+.bottom-banner{padding:35px 0;}
+.bottom-banner .shopnow{display:inline-block;margin-top:10px;}
+.bottom-banner .text-bn{}
+}
+@media (max-width: 767px)
+{
+	.bottom-banner .shopnow{display:inline-block;margin-top:10px;}
+	.bottom-banner .text-bn{margin-right:0;display:inline-block;}
+	.banner-content a img{width:100%;}
+	
+}

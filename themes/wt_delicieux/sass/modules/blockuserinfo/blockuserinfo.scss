@@ -1,0 +1,48 @@
+@import "compass";
+@import "theme_variables";
+.header_user_info {
+	float: left;
+	
+	a {
+		
+		font-weight: bold;
+		display: block;
+		padding: 7px 10px 0 0 ;
+		cursor: pointer;
+		line-height:18px;
+		font-size:10px;
+		text-transform:uppercase;
+		color:$light-text-color; 
+		@media (min-width: $screen-md) and (max-width:$screen-md-max) 
+		{
+			span{display:none;}
+		}
+		&:before
+		{
+			font-family: FontAwesome;
+		  font-size:13px;
+		  text-align:center;
+		  display:inline-block;
+		  margin-right:10px;
+		}
+		&.login{font-size:0;}
+		&.login:before
+		{
+	      
+		      content: "\f084";
+			  margin-right:0;
+		  
+		}
+		&.account:before
+		{
+			 content: "\f007";;
+		}
+		&.logout:before 
+		{
+			     content: "\f08b";
+		}
+		&:hover, &.active {
+			color:$link-hover-color;
+		}
+	}
+}

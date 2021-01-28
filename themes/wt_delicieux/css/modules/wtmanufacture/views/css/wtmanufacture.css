@@ -1,0 +1,4 @@
+.list_manu .owl-controls .owl-dots{margin-top:40px;}
+.list_manu #ul_manu img{-moz-transition: all 500ms ease 0ms;-webkit-transition: all 500ms ease 0ms;transition: all 500ms ease 0ms;}
+.list_manu #ul_manu img:hover{opacity:0.5;}
+.wt-block-manu{margin-bottom:70px;margin-top:90px;}

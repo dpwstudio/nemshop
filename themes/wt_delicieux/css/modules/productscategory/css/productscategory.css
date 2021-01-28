@@ -1,0 +1,16 @@
+#productscategory_list .product-name {
+  margin-bottom: 5px; }
+  #productscategory_list .product-name a {
+    line-height: 18px;
+    color: #222a2d; }
+    #productscategory_list .product-name a:hover {
+      color: #ffa334; }
+#productscategory_list .exclusive span {
+  font-size: 13px;
+  line-height: 18px;
+  padding: 2px 8px 3px;
+  text-decoration: none; }
+  #productscategory_list .exclusive span:focus, #productscategory_list .exclusive span:active {
+    text-decoration: none; }
+
+/*# sourceMappingURL=productscategory.css.map */

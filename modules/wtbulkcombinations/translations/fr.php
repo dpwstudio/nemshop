@@ -1,0 +1,30 @@
+<?php
+
+global $_MODULE;
+$_MODULE = array();
+$_MODULE['<{wtbulkcombinations}prestashop>wtbulkcombinations_875a95797418d7dfae3deaeaf8d711e7'] = 'Créations des déclinaisons en masse';
+$_MODULE['<{wtbulkcombinations}prestashop>wtbulkcombinations_64422543572b39c10ba37e503d79bde3'] = 'Merci de choisir au moins un produit pour continuer';
+$_MODULE['<{wtbulkcombinations}prestashop>wtbulkcombinations_cce911598748771ff10233149839a738'] = 'Les déclinaisons étaient crées avec succès ';
+$_MODULE['<{wtbulkcombinations}prestashop>wtbulkcombinations_2f2c1f382f3e93b8bdadf285347dc24d'] = 'Merci de choisir au moins un attribut pour créer les déclinaisons ';
+$_MODULE['<{wtbulkcombinations}prestashop>wtbulkcombinations_42d00bc24fd43cfe3e2e30d01f39ee95'] = 'Filtrer par catégorie ';
+$_MODULE['<{wtbulkcombinations}prestashop>wtbulkcombinations_03368e3c1eb4d2a9048775874301b19f'] = 'Choisir la catégorie';
+$_MODULE['<{wtbulkcombinations}prestashop>wtbulkcombinations_e86dfe5c96015d9eb7affc5bcc60d579'] = 'Pour le produit #';
+$_MODULE['<{wtbulkcombinations}prestashop>wtbulkcombinations_b2324753f0cc538d60e9d65240b82233'] = 'La suppression  n\'est pas possible tant qu\'il y a du stock dans Advanced Stock Management. Merci de supprimer le stock en avance';
+$_MODULE['<{wtbulkcombinations}prestashop>wtbulkcombinations_24deae1bf1596efb0c38d969c02f2ecd'] = 'Erreur pendant la suppression du stock ';
+$_MODULE['<{wtbulkcombinations}prestashop>form_btm_dae8ace18bdcbcc6ae5aece263e14fe8'] = 'Options ';
+$_MODULE['<{wtbulkcombinations}prestashop>form_btm_947f664d2eaee1f87d0feebcca0d6215'] = 'Supprimer les déclinaisons existantes pour les produits selectionnés ';
+$_MODULE['<{wtbulkcombinations}prestashop>form_btm_b8352233c84a98fdf3cb4dc853badb79'] = 'Vous êtes sûr de vouloir créer les déclinaisons pour les produits sélectionnés? ';
+$_MODULE['<{wtbulkcombinations}prestashop>form_btm_b2c80334809f9130d46e89b66b6d8544'] = 'Créer les déclinaisons? ';
+$_MODULE['<{wtbulkcombinations}prestashop>form_btm_00bd4ec31bdf34dc77945bf0d66ea573'] = 'Créer l\'autres déclinaisons? ';
+$_MODULE['<{wtbulkcombinations}prestashop>form_btm_d3b3de445bc84376ce95626195d130ae'] = 'Sélectionner les attributs pour créer les déclinaisons? ';
+$_MODULE['<{wtbulkcombinations}prestashop>form_btm_fbd324da27b80d82f88b74d01a3de7f9'] = 'Cliquer pour sélectionner les attributs';
+$_MODULE['<{wtbulkcombinations}prestashop>form_btm_f3b773b7269b9a6456c55873dc60e453'] = 'Attributs sélectionnés ';
+$_MODULE['<{wtbulkcombinations}prestashop>form_btm_bf1a20edc5784375f2a2be6c1cf51ee6'] = 'Pas de produits dans cette catégorie ';
+$_MODULE['<{wtbulkcombinations}prestashop>form_top_9c3ca8b2e6aeb76ba84f851bb34adf44'] = 'Mettez les prix et quantités pour les déclinaisons ';
+$_MODULE['<{wtbulkcombinations}prestashop>form_top_3601146c4e948c32b6424d2c0a7f0118'] = 'Prix';
+$_MODULE['<{wtbulkcombinations}prestashop>form_top_694e8d1f2ee056f98ee488bdc4982d73'] = 'Quantité';
+$_MODULE['<{wtbulkcombinations}prestashop>form_top_ed4e0a0aae1c5f8eebeefb2d24e746bc'] = 'Supprimer tout';
+$_MODULE['<{wtbulkcombinations}prestashop>form_top_418f2235553da6735eb90e62e1d43da9'] = 'Créer les déclinaisons pour ';
+$_MODULE['<{wtbulkcombinations}prestashop>form_top_04e418e45f9b8ea710eca2d48eafee6e'] = 'Tout les produits ';
+$_MODULE['<{wtbulkcombinations}prestashop>form_top_99078a8f3786817fbaa593c08ff04a5d'] = 'Sélectionner les catégories ';
+$_MODULE['<{wtbulkcombinations}prestashop>form_top_8f8a4348cd537ba5f0bf813e66436dc5'] = 'Sélectionner les produits ';

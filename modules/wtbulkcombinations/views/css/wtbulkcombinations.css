@@ -1,0 +1,34 @@
+/**
+ * 2016 WeeTeam
+ *
+ * @author    WeeTeam <info@weeteam.net>
+ * @copyright 2015 WeeTeam
+ * @license   http://www.gnu.org/philosophy/categories.html (Shareware)
+ */
+#attributesSelect #attributes-list,
+#attributesSelect #attributes-list-result {
+	height: 350px;
+	overflow-y: scroll;
+	overflow-x: hidden;
+	color: #555;
+	background-color: #F5F8F9;
+	background-image: none;
+	border: 1px solid #C7D6DB;
+	border-radius: 3px;
+	padding: 6px 8px;
+	font-size: 12px;
+	line-height: 1.42857;
+	margin-bottom: 10px;
+}
+#attributesSelect #attributes-list .option,
+#attributesSelect #attributes-list-result .option {
+	padding-left: 10px;
+}
+#attributesSelect #attributes-list .option:hover,
+#attributesSelect #attributes-list-result .option:hover {
+	cursor: pointer;
+}
+#attributesSelect #attributes-list .title,
+#attributesSelect #attributes-list-result .title {
+	font-weight: bold;
+}

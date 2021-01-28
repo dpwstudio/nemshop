@@ -1,0 +1,43 @@
+#my-account .addresses-lists {
+  margin-bottom: 30px; }
+#my-account ul.myaccount-link-list li {
+  overflow: hidden;
+  margin-bottom: 20px; }
+  #my-account ul.myaccount-link-list li a {
+    display: block;
+    overflow: hidden;
+    font: 500 14px/20px "Montserrat", sans-serif;
+    color: #222a2d;
+    text-transform: uppercase;
+    text-decoration: none;
+    position: relative;
+    transition: all 0.3s ease 0s;
+    -moz-transition: all 0.3s ease 0s;
+    -webkit-transition: all 0.3s ease 0s; }
+    #my-account ul.myaccount-link-list li a i {
+      font-size: 24px;
+      float: left;
+      line-height: 102px;
+      width: 102px;
+      height: 102px;
+      text-align: center;
+      background: #e8e9ea;
+      color: #ffa334;
+      margin-right: 20px;
+      -moz-border-radius: 50%;
+      -webkit-border-radius: 50%;
+      border-radius: 50%;
+      transition: all 0.3s ease 0s;
+      -moz-transition: all 0.3s ease 0s;
+      -webkit-transition: all 0.3s ease 0s; }
+    #my-account ul.myaccount-link-list li a span {
+      display: block;
+      margin-top: 44px;
+      overflow: hidden; }
+    #my-account ul.myaccount-link-list li a:hover {
+      color: #ffa334; }
+      #my-account ul.myaccount-link-list li a:hover i {
+        background: #ffa334;
+        color: #fff; }
+
+/*# sourceMappingURL=my-account.css.map */
